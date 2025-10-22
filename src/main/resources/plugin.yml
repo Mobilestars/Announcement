@@ -1,5 +1,5 @@
 name: Announcement
-version: '1.0.0'
+version: '1.1.0'
 main: de.scholle.announcement.Announcement
 api-version: '1.18'
 prefix: Announce
