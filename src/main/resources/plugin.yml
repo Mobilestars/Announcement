@@ -1,0 +1,20 @@
+name: Announcement
+version: '1.0.0'
+main: de.scholle.announcement.Announcement
+api-version: '1.18'
+prefix: Announce
+load: STARTUP
+authors: [ Mobilestars ]
+description: A simple announcement plugin for broadcasting colored messages.
+website: https://modrinth.com/project/announcement-plugin
+
+commands:
+  announce:
+    description: Broadcast a colored announcement to all players.
+    usage: /announce <message> <color>
+    permission: announcement.use
+
+permissions:
+  announcement.use:
+    description: Allows the player to use /announce
+    default: op
